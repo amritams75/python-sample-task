@@ -1,0 +1,5 @@
+principle_amt = int(input("Enter the principle amount:"))
+rate = int(input("Enter the rate of interest:"))
+no_of_yrs = int(input("Number of years"))
+si = ((principle_amt * rate * no_of_yrs)/100)
+print("SI", si)
